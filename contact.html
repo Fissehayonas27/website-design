@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kerawdion</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled>
+
+
+    <link rel="stylesheet" href="style-switcher.css">
+    </head>
+
+    <body>
+
+        <div class="aside">
+         
+            <div class="logo">
+                <a href="index.html"><span>K</span>erawdion</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="index.html" class="active"><i class="fa fa-home"></i> Home </a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i> About </a></li>
+                <li><a href="services.html"><i class="fa fa-list"></i> Services </a></li>
+                <li><a href="contact.html"><i class="fa fa-comments"></i> Contact </a></li>
+            </ul>
+        </div>
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title padd-15">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <h3 class="contact-title padd-15">Do You Have Any Questions ?</h3>
+                <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+                <div class="row">
+                    <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fa fa-phone"></i></div>
+                        <h4>Call Me On</h4>
+                        <p>0046700392952</p>
+                    </div>
+
+                    <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fa fa-envelope"></i></div>
+                        <h4>Email</h4>
+                        <a href="mailto:melka29@hotmail.com" id="emails">melka29@hotmail.com</a>
+                    </div> 
+
+                    <div class="contact-info-item padd-15">
+                        <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                        <h4>Website</h4>
+                        <a href="https://www.kerawdion.com">www.kerawdion.com</a>
+                        <p></p>
+                    </div>
+
+                
+                </div>
+
+                <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+                <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                <div class="row">
+                    <div class="contact-form padd-15">
+                        <div class="row">
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group" >
+                                    <form action="submit">
+                                    <input type="text" class="form-control" placeholder="Name" id="name" name="name">
+                                    <label for="name"></label>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="form-item col-6 padd-15">
+                                <div class="form-group" >
+                                    <form action="submit">
+                                    <input type="email" class="form-control" placeholder="Email" id="email" name="email">
+                                    <label for="email"></label>
+                                </form>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group" >
+                                    <form action="submit">
+                                    <input type="text" class="form-control" placeholder="Subject" id="subject" name="subject">
+                                    <label for="subject"></label>
+                                   </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                                <div class="form-group">
+                                    <form action="submit">
+                                    <textarea name="message" class="form-control" id="messages" placeholder="Message" height="500"></textarea>
+                                    <label for="message"></label>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-item col-12 padd-15">
+                        <button type="submit" class="btn">Send Message</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section><div class="style-switcher">
+
+            <div class="style-switcher-toggler s-icon">
+                <i class="fas fa-cog fa-spin"></i>
+            </div>
+    
+            <div class="day-night s-icon">
+                <i class="fas "></i>
+            </div>
+    
+            <h4>Theme Colors</h4>
+            <div class="colors">
+    
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+            </div>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+
+        <script src="script.js"></script>
+        <script src="style-switcher.js"></script>
+        <script src="link.js"></script>
+    </body>
+    </html>
